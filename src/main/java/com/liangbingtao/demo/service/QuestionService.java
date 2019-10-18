@@ -2,6 +2,7 @@ package com.liangbingtao.demo.service;
 
 import com.liangbingtao.demo.dto.PaginationDTO;
 import com.liangbingtao.demo.dto.QuestionDTO;
+import com.liangbingtao.demo.exception.CustomizeErrorCode;
 import com.liangbingtao.demo.exception.CustomizeException;
 import com.liangbingtao.demo.mapper.QuestionMapper;
 import com.liangbingtao.demo.mapper.UserMapper;
@@ -105,7 +106,7 @@ public class QuestionService {
     public QuestionDTO getById(Integer id) {
         Question question=questionMapper.selectByPrimaryKey(id);
         if(question == null){
-            throw new CustomizeException("你找的问题不在了，要不要换个试试？");
+            throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
         }
         QuestionDTO questionDTO = new QuestionDTO();
         BeanUtils.copyProperties(question,questionDTO);
@@ -130,7 +131,20 @@ public class QuestionService {
             QuestionExample example = new QuestionExample();
             example.createCriteria()
                     .andIdEqualTo(question.getId());
-            questionMapper.updateByExampleSelective(updateQuestion, example);
+            int update = questionMapper.updateByExampleSelective(updateQuestion, example);
+            if(update != 1){
+                throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
+            }
         }
     }
+
+//    public void incView(Integer id) {
+//        Question question = questionMapper.selectByPrimaryKey(id);
+//        Question updateQuestion = new Question();
+//        updateQuestion.setViewCount(question.getViewCount() + 1);
+//        QuestionExample questionExample = new QuestionExample();
+//        questionExample.createCriteria()
+//                .andIdEqualTo(id);
+//        questionMapper.updateByExampleSelective(updateQuestion, questionExample);
+//    }
 }
