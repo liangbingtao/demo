@@ -19,6 +19,7 @@ public class CustomizeErrorController implements ErrorController {
 
     @Override
     public String getErrorPath() {
+
         return "error";
     }
 

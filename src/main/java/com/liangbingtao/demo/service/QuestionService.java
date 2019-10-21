@@ -4,6 +4,7 @@ import com.liangbingtao.demo.dto.PaginationDTO;
 import com.liangbingtao.demo.dto.QuestionDTO;
 import com.liangbingtao.demo.exception.CustomizeErrorCode;
 import com.liangbingtao.demo.exception.CustomizeException;
+import com.liangbingtao.demo.mapper.QuestionExtMapper;
 import com.liangbingtao.demo.mapper.QuestionMapper;
 import com.liangbingtao.demo.mapper.UserMapper;
 import com.liangbingtao.demo.model.Question;
@@ -25,6 +26,9 @@ public class QuestionService {
 
     @Autowired
     private QuestionMapper questionMapper;
+
+    @Autowired
+    private QuestionExtMapper questionExtMapper;
 
     public PaginationDTO list(Integer page, Integer size) {
 
@@ -138,13 +142,11 @@ public class QuestionService {
         }
     }
 
-//    public void incView(Integer id) {
-//        Question question = questionMapper.selectByPrimaryKey(id);
-//        Question updateQuestion = new Question();
-//        updateQuestion.setViewCount(question.getViewCount() + 1);
-//        QuestionExample questionExample = new QuestionExample();
-//        questionExample.createCriteria()
-//                .andIdEqualTo(id);
-//        questionMapper.updateByExampleSelective(updateQuestion, questionExample);
-//    }
+    public void incView(Integer id) {
+
+        Question question = new Question();
+        question.setId(id);
+        question.setViewCount(1);
+        questionExtMapper.incView(question);
+    }
 }
