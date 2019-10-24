@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1f3879-aa6f-4766-aef1-54fceb982e71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/CommentCreateDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/CommentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/dto/CommentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/dto/CommentDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/CommentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
     </list>
@@ -200,7 +210,7 @@
       <workItem from="1571754168870" duration="980000" />
       <workItem from="1571789122378" duration="4009000" />
       <workItem from="1571793739150" duration="530000" />
-      <workItem from="1571810848892" duration="31568000" />
+      <workItem from="1571810848892" duration="39205000" />
     </task>
     <servers />
   </component>
@@ -273,6 +283,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/PaginationDTO.java</url>
           <line>23</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/QuestionService.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

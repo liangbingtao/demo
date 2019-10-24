@@ -1,9 +1,8 @@
 package com.liangbingtao.demo.controller;
 
+import com.liangbingtao.demo.dto.CommentCreateDTO;
 import com.liangbingtao.demo.dto.CommentDTO;
 import com.liangbingtao.demo.dto.QuestionDTO;
-import com.liangbingtao.demo.mapper.QuestionMapper;
-import com.liangbingtao.demo.model.Question;
 import com.liangbingtao.demo.service.CommentService;
 import com.liangbingtao.demo.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +23,7 @@ public class QuestionController {
     private CommentService commentService;
 
     @GetMapping("/question/{id}")
-    public String question(@PathVariable(name = "id") Long id,
-                           Model model){
+    public String question(@PathVariable(name = "id") Long id, Model model){
         QuestionDTO questionDTO=questionService.getById(id);
 
         List<CommentDTO> comments = commentService.listByQuestionId(id);
@@ -33,6 +31,7 @@ public class QuestionController {
         //累加阅读数
         questionService.incView(id);
         model.addAttribute("question",questionDTO);
+        model.addAttribute("comments",comments);
         return "question";
     }
 
