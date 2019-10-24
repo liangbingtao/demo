@@ -34,8 +34,8 @@ public class CommentController {
         Comment comment = new Comment();
         comment.setParentId(commentDTO.getParentId());
         comment.setContent(commentDTO.getContent());
-        comment.setType(comment.getType());
-        comment.setGmtCreat(System.currentTimeMillis());
+        comment.setType(commentDTO.getType());
+        comment.setGmtCreate(System.currentTimeMillis());
         comment.setGmtModified(System.currentTimeMillis());
         comment.setCommentator(user.getId());
         comment.setLikeCount(0L);
