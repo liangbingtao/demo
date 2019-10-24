@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1f3879-aa6f-4766-aef1-54fceb982e71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_user_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Add_bio_col_to_user_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_question_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__Create_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__Add_content_to_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__Change_id_column_type.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V8__Change_creator_column_type.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/community.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/PublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/PublishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/QuestionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/QuestionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/enums/CommentTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/enums/CommentTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/QuestionExtMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/QuestionExtMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/CommentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/CommentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/QuestionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/QuestionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Creat_user_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V3_Creat_question_table.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_avatar_url_to_user_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__Add_avatar_url_to_user_table.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +200,7 @@
       <workItem from="1571754168870" duration="980000" />
       <workItem from="1571789122378" duration="4009000" />
       <workItem from="1571793739150" duration="530000" />
-      <workItem from="1571810848892" duration="26263000" />
+      <workItem from="1571810848892" duration="31568000" />
     </task>
     <servers />
   </component>
