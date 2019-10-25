@@ -27,6 +27,10 @@ body{
     margin-top: 15px;
 }
 
+.question-title{
+    margin-top: 25px;
+}
+
 .IDEA_demo-menu{
     display: block;
     color: #999;
