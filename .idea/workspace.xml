@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1f3879-aa6f-4766-aef1-54fceb982e71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/moment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/AuthorizeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/ResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/ResultDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/dto/ResultDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/dto/ResultDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +106,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -204,7 +214,7 @@
       <workItem from="1571793739150" duration="530000" />
       <workItem from="1571810848892" duration="39268000" />
       <workItem from="1571963043486" duration="7934000" />
-      <workItem from="1572060193371" duration="10900000" />
+      <workItem from="1572060193371" duration="30942000" />
     </task>
     <servers />
   </component>

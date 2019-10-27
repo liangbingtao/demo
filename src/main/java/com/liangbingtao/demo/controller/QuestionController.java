@@ -1,8 +1,8 @@
 package com.liangbingtao.demo.controller;
 
-import com.liangbingtao.demo.dto.CommentCreateDTO;
 import com.liangbingtao.demo.dto.CommentDTO;
 import com.liangbingtao.demo.dto.QuestionDTO;
+import com.liangbingtao.demo.enums.CommentTypeEnum;
 import com.liangbingtao.demo.service.CommentService;
 import com.liangbingtao.demo.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +26,7 @@ public class QuestionController {
     public String question(@PathVariable(name = "id") Long id, Model model){
         QuestionDTO questionDTO=questionService.getById(id);
 
-        List<CommentDTO> comments = commentService.listByQuestionId(id);
+        List<CommentDTO> comments = commentService.listByTargetId(id, CommentTypeEnum.QUESTION);
 
         //累加阅读数
         questionService.incView(id);
