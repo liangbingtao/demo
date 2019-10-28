@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b1f3879-aa6f-4766-aef1-54fceb982e71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/CommentExtMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentExtMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/dto/CommentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/CommentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/CommentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/QuestionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/QuestionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/model/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liangbingtao/demo/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/IDEA_demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/CommentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/model/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/IDEA_demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liangbingtao/demo/service/QuestionService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +49,7 @@
         <item name="IDEA_demo" type="feb32156:DbDataSourceImpl" />
         <item name="IDEA_DEMO: database" type="2aa06773:H2ImplModel$Database" />
         <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
-        <item name="COMMENT: table" type="818c1b4a:H2ImplModel$Table" />
+        <item name="QUESTION: table" type="818c1b4a:H2ImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -171,7 +147,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f5e3f232" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2918c29d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2918c29d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@d43dbef" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +208,8 @@
       <workItem from="1571793739150" duration="530000" />
       <workItem from="1571810848892" duration="39268000" />
       <workItem from="1571963043486" duration="7934000" />
-      <workItem from="1572060193371" duration="32835000" />
+      <workItem from="1572060193371" duration="34267000" />
+      <workItem from="1572221995269" duration="2535000" />
     </task>
     <servers />
   </component>

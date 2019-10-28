@@ -30,6 +30,9 @@ body{
 .question-title{
     margin-top: 25px;
 }
+.question-tag{
+    margin-right: 5px;
+}
 
 .IDEA_demo-menu{
     display: block;
@@ -93,3 +96,4 @@ body{
 .menu .icon:hover{
     color:#499ef3;
 }
+
